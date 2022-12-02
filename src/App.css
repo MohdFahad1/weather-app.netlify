@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #2fa4ff;
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato,sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+
+.morning {
+  background-color: #2fa4ff;
+}
+
+.App {
+  padding-bottom: 2.5rem;
+}
+
+h1
+{
+  margin: 1.5rem;
+}
+
+.search{
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+  width:60%;
+  background-color: rgb(253, 253, 253);
+  appearance: none;
+  font-family: Lato,sans-serif;
+  height: 50px;
+  opacity: .7;
+  padding-left: 20px;
+}
+
+.search:focus
+{
+  outline:2.5px solid #21325e;
+}
+
+.btn
+{
+  margin-top: 1rem;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  width:20%;
+  background-color: #3F51B5;
+  appearance: none;
+  font-family: Lato,sans-serif;
+  height: 40px;
+  opacity: .7; 
+}
+
+.btn:hover
+{
+  color: #21325e;
+  border: 2px solid #21325e;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.weather
+{
+  margin:100px auto auto;
+}
+
+.location
+{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  font-size: 10em;
+}
+
+.weather-type {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.others {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 15px;
+  width: 85%;
+}
+
+.others div {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: hsla(0,0%,100%,.15);
+  border-radius: 20px;
+  width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .others{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .others div
+  {
+    margin-top: 1rem;
+  }
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.forecast-container {
+  background-color: hsla(0,0%,100%,.15);
+  border-radius: 20px;
+  margin: auto auto 20px;
+  width: 85%;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px;
+  padding: 20px;
+}
+
+.line .icon {
+  font-size: 2em;
+  margin: auto;
+  padding-top: 15px;
+}
+
+
+
+.footer {
+  bottom: 0;
+  height: 2.5rem;
+  position: absolute;
+  width: 100%;
+}
+
+.errorPage
+{
+  background-color: #2fa4ff; 
+}
