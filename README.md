@@ -17,3 +17,6 @@ This Project is hosted on  Netlify.
  # Tools & Tech Used
 - Visual Studio Code
 - React
+- Javascript
+- HTML
+- CSS
